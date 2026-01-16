@@ -29,7 +29,7 @@ export class UsersController {
     if (!user) {
       return { message: 'Usuario no encontrado' };
     }
-    // Retornar sin contraseña
+    // Retornar sin contraseña  
     const { password, ...userWithoutPassword } = user;
     return userWithoutPassword;
   }

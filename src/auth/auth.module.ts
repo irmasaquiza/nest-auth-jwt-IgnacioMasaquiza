@@ -19,4 +19,4 @@ import { JwtStrategy, JWT_SECRET } from './strategies/jwt.strategy';
   providers: [AuthService, JwtStrategy],
   exports: [JwtModule],
 })
-export class AuthModule { }
+export class AuthModule {}

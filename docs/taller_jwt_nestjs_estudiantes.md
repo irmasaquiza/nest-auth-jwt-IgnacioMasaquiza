@@ -110,6 +110,7 @@ export class User {
 Editar `src/users/users.service.ts`:
 
 ```typescript
+
 import { Injectable } from '@nestjs/common';
 import { User } from './entities/user.entity';
 
@@ -716,7 +717,7 @@ URL: {{base_url}}/auth/register
 3. Usar el mismo email que ya registraste:
 ```json
 {
-    "nombre": "Otro Usuario",
+    "nombre": " ",
     "email": "juan@test.com",
     "password": "password123"
 }
